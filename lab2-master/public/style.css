@@ -1,0 +1,32 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    padding: 1%;
+    background: deepskyblue;
+    height:80vh;
+    /* margin: 1rem; */
+    display: grid;
+    grid-gap: 5px 5px; 
+    overflow: hidden;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .cell {
+    color: black;
+    /* font-size: 3rem; */
+    text-align: center;
+    background: white;
+    width: 100%; 
+    height: 100%;
+    transition-duration: 0.1s;
+  }
+
+.valid1:hover {
+  background: red !important;
+}
+
+.valid2:hover {
+  background:yellow !important;
+}

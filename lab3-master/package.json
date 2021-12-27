@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node base_version/src/server.js",
+    "lint": "eslint --fix 'base_version/src/**/*.js'"
+  },
+  "dependencies": {
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "express": "4.17.1",
+    "sqlite3": "4.1.0"
+  },
+  "devDependencies": {}
+}
